@@ -3,7 +3,7 @@ using QuickBuy.Dominio.Enumerados;
 
 namespace QuickBuy.Dominio.ObjetoDeValor
 {
-    class FormaPagamento : Entidade
+    public class FormaPagamento : Entidade
     {
         public int Id { get; set; }
         public string Nome { get; set; }
